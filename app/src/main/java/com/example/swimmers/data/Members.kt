@@ -2,13 +2,15 @@ package com.example.swimmers.data
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.example.swimmers.Constants.DATABASE_MEMBERS_TABLE
 
-@Entity(tableName = DATABASE_DATES_TABLE)
-data class Dates(
+@Entity(tableName = DATABASE_MEMBERS_TABLE)
+data class Members(
     @PrimaryKey
-    val dateId: Int,
-    val year: Int,
-    val month: Int,
-    val day: Int,
-    val nameOfDay: String,
+    val id: Int,
+    val number: Int,
+    val firstName: String,
+    val lastName: String,
+    val warning: Int,
+    val isPay: Boolean
 )
