@@ -3,7 +3,7 @@
     <style name="App.Starting.Theme" parent="Theme.SplashScreen" >
         <item name="windowSplashScreenBackground">#efefef</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/l</item>
-        <item name="postSplashScreenTheme">@style/Theme.Lawyer</item>
+        <item name="postSplashScreenTheme">@style/Theme.Swimmers</item>
     </style>
 
 </resources>
