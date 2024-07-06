@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 //SetStatusBarColor()
 
                 CompositionLocalProvider(LocalLayoutDirection provides LayoutDirection.Rtl) {
-
+                    Text("ddddd")
                 }
             }
         }
