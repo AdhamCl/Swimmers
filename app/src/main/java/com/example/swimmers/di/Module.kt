@@ -28,7 +28,7 @@ object Module {
 
     @Provides
     @Singleton
-    fun provideSwillersDao(database: SwimmersDatabase) = database.swimmersDao()
+    fun provideSwimmersDao(database: SwimmersDatabase) = database.swimmersDao()
 
 
 }
